@@ -1,5 +1,7 @@
 package homeWorks;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -35,7 +37,10 @@ public class Main {
 
         PC testPC = new PC();
         testPC.setPrice(1000000000);
-
+        //Bubble sort function in use.
+        int[] arr = {3,44,5,6,76,78,9,79,34,6,45,5,6,7,56,5,847};
+        BubbleSort.arrayBubbleSort(arr);
+        System.out.println(Arrays.toString(arr));
 
     }
 }
